@@ -1,12 +1,34 @@
 body {
-	/*background: url('nature.jpg') no-repeat;*/
-	background-size: none;
-	margin-left: 20%;
-	margin-top: 3%;
+	background: url('./Pics/Mural.jpg') no-repeat;
+	background-size: 100%;
+	margin-left: 0%;
+	margin-top: 0%;
    }
    
+   #imgdiv img{
+	float: left;
+	margin-left: 0%;
+	margin-top: 0%;
+	width: 100px;
+	height:100px;
+
+
+   }
+   #imglogo2{
+	   position: relative;
+   }
+   #imglogo2 img{
+	float: right;
+	width: 200px;
+	height: 60px;
+	bottom: 0;
+   }
+   #mainul{
+	padding: 25px;
+
+   }
    ul {
-	margin: 0px;
+	margin-top: 0px;
 	padding: 0px;
 	list-style: none;
 	font-family: arial;
